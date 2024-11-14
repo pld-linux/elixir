@@ -8,7 +8,8 @@ Source0:	https://github.com/elixir-lang/elixir/archive/v%{version}/%{name}-%{ver
 # Source0-md5:	ddd875a539536b4e4584d6aa93a1132e
 URL:		https://elixir-lang.org/
 BuildRequires:	erlang >= 2:25.0
-Requires:	erlang >= 2:25.0
+BuildRequires:	rpmbuild(macros) >= 2.035
+%{?erlang_requires}
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
