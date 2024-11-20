@@ -12,6 +12,8 @@ BuildRequires:	rpmbuild(macros) >= 2.035
 %{?erlang_requires}
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
+%define		_enable_debug_packages	0
+
 %description
 Elixir is a dynamic, functional language for building scalable and
 maintainable applications. Elixir runs on the Erlang VM, known for
