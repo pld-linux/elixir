@@ -1,11 +1,11 @@
 Summary:	Tools for Elixir language
 Name:		elixir
-Version:	1.17.3
+Version:	1.18.4
 Release:	1
 License:	Apache v2.0
 Group:		Development/Languages
 Source0:	https://github.com/elixir-lang/elixir/archive/v%{version}/%{name}-%{version}.tar.gz
-# Source0-md5:	ddd875a539536b4e4584d6aa93a1132e
+# Source0-md5:	62336e9a21151b05b94a1b39b3a248e9
 URL:		https://elixir-lang.org/
 BuildRequires:	erlang >= 2:25.0
 BuildRequires:	rpmbuild(macros) >= 2.035
